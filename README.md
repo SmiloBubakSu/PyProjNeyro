@@ -32,57 +32,33 @@ CPU: Download requirements.txt file and install via the command
 pip install -r requirements.txt
 or simply copy and run the command below
 
-pip install cython pillow>=7.0.0 numpy>=1.18.1 opencv-python>=4.1.2 torch>=1.9.0 --extra-index-url https://download.pytorch.org/whl/cpu torchvision>=0.10.0 --extra-index-url https://download.pytorch.org/whl/cpu pytest==7.1.3 tqdm==4.64.1 scipy>=1.7.3 matplotlib>=3.4.3 mock==4.0.3
-GPU/CUDA: Download requirements_gpu.txt file and install via the command
 
-pip install -r requirements_gpu.txt
-or smiply copy and run the command below
 
-pip install cython pillow>=7.0.0 numpy>=1.18.1 opencv-python>=4.1.2 torch>=1.9.0 --extra-index-url https://download.pytorch.org/whl/cu102 torchvision>=0.10.0 --extra-index-url https://download.pytorch.org/whl/cu102 pytest==7.1.3 tqdm==4.64.1 scipy>=1.7.3 matplotlib>=3.4.3 mock==4.0.3
+pip install cython pillow>=7.0.0 
+
+numpy>=1.18.1 opencv-python>=4.1.2 
+
+torch>=1.9.0 --extra-index-url https://download.pytorch.org/whl/cu102 
+
+torchvision>=0.10.0 --extra-index-url https://download.pytorch.org/whl/cu102 
+
+pytest==7.1.3 
+
+tqdm==4.64.1 
+
+scipy>=1.7.3 
+
+matplotlib>=3.4.3 
+
+mock==4.0.3
+
 If you plan to train custom AI models, download requirements_extra.txt file and install via the command
-
-pip install -r requirements_extra.txt
-or simply copy and run the command below
-
-pip install pycocotools@git+https://github.com/gautamchitnis/cocoapi.git@cocodataset-master#subdirectory=PythonAPI
-Then run the command below to install ImageAI
 
 pip install imageai --upgrade
 Features
 Image Classification
 
-ImageAI provides 4 different algorithms and model types to perform image prediction, trained on the ImageNet-1000 dataset. The 4 algorithms provided for image prediction include MobileNetV2, ResNet50, InceptionV3 and DenseNet121. Click the link below to see the full sample codes, explanations and best practices guide.
->>> Get Started
-Object Detection
 
-ImageAI provides very convenient and powerful methods to perform object detection on images and extract each object from the image. The object detection class provides support for RetinaNet, YOLOv3 and TinyYOLOv3, with options to adjust for state of the art performance or real time processing. Click the link below to see the full sample codes, explanations and best practices guide.
->>> Get Started
-Video Object Detection & Analysis
-
-ImageAI provides very convenient and powerful methods to perform object detection in videos. The video object detection class provided only supports the current state-of-the-art RetinaNet. Click the link to see the full videos, sample codes, explanations and best practices guide.
->>> Get Started
-Custom Classification model training
-
-ImageAI provides classes and methods for you to train a new model that can be used to perform prediction on your own custom objects. You can train your custom models using MobileNetV2, ResNet50, InceptionV3 and DenseNet in 5 lines of code. Click the link below to see the guide to preparing training images, sample training codes, explanations and best practices.
->>> Get Started
-Custom Model Classification
-
-ImageAI provides classes and methods for you to run image prediction your own custom objects using your own model trained with ImageAI Model Training class. You can use your custom models trained with MobileNetV2, ResNet50, InceptionV3 and DenseNet and the JSON file containing the mapping of the custom object names. Click the link below to see the guide to sample training codes, explanations, and best practices guide.
->>> Get Started
-Custom Detection Model Training
-
-ImageAI provides classes and methods for you to train new YOLOv3 or TinyYOLOv3 object detection models on your custom dataset. This means you can train a model to detect literally any object of interest by providing the images, the annotations and training with ImageAI. Click the link below to see the guide to sample training codes, explanations, and best practices guide.
->>> Get Started
-Custom Object Detection
-
-ImageAI now provides classes and methods for you detect and recognize your own custom objects in images using your own model trained with the DetectionModelTrainer class. You can use your custom trained YOLOv3 or TinyYOLOv3 model and the **.json** file generated during the training. Click the link below to see the guide to sample training codes, explanations, and best practices guide.
->>> Get Started
-Custom Video Object Detection & Analysis
-
-ImageAI now provides classes and methods for you detect and recognize your own custom objects in images using your own model trained with the DetectionModelTrainer class. You can use your custom trained YOLOv3 or TinyYOLOv3 model and the **.json** file generated during the training. Click the link below to see the guide to sample training codes, explanations, and best practices guide.
->>> Get Started
-Documentation
-We have provided full documentation for all ImageAI classes and functions. Visit the link below:
 
 Documentation - English Version https://imageai.readthedocs.io
 Sponsors
