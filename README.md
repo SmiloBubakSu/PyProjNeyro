@@ -44,7 +44,7 @@ CPU: Download requirements.txt file and install via the command
 pip install -r requirements.txt
 or simply copy and run the command below
 
-
+install yolo.h5 >= https://www.kaggle.com/datasets/rmoharir8396/yolo-h5-file
 
 pip install cython pillow>=7.0.0 
 
