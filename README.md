@@ -10,17 +10,29 @@ What's new:
 PyTorch backend
 TinyYOLOv3 model training
 TABLE OF CONTENTS
+
 🔳 Installation
+
 🔳 Features
+
 🔳 Documentation
+
 🔳 Sponsors
+
 🔳 Projects Built on ImageAI
+
 🔳 High Performance Implementation
+
 🔳 AI Practice Recommendations
+
 🔳 Contact Developers
+
 🔳 Citation
+
 🔳 References
+
 Installation
+
 To install ImageAI, run the python installation instruction below in the command line:
 
 Download and Install Python 3.7, Python 3.8, Python 3.9 or Python 3.10
