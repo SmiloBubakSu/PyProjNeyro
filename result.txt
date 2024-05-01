@@ -1,0 +1,10 @@
+1: 	{'car': 18}
+2: 	{'car': 18, 'motorcycle': 0}
+3: 	{'car': 14, 'motorcycle': 0, 'truck': 0}
+4: 	{'truck': 1, 'car': 12}
+5: 	{'car': 13, 'truck': 0, 'traffic light': 0}
+2: 	{'car': 15}
+3: 	{}
+4: 	{'car': 18}
+2: 	{'car': 15}
+3: 	{'car': 19}
